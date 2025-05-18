@@ -22,7 +22,7 @@ def pozicija(str, stara, lett):
 def create_blanks(str):
     blanks = ""
     for a in str:
-        blanks = blanks + '_'
+        blanks = blanks + ' _'
     return blanks
 
 a = pwinput.pwinput(prompt='',mask="")
